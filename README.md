@@ -1,1 +1,1 @@
-# rumahadatmandar
+# rumah_adat_mandar
