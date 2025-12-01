@@ -21,7 +21,7 @@
 
 <!-- Modal Minimap -->
 <div id="minimapModal" class="minimap-modal" onclick="hideMinimap()">
-  <img src="images/minimap.jpg" alt="Minimap Virtual Tour" class="minimap-img">
+  <img src="assets/360_images/images/minimap.png" alt="Minimap Virtual Tour" class="minimap-img">
 </div>
 
 <div id="panorama"></div>
@@ -47,8 +47,6 @@
   <button onclick="viewer.loadScene('s17')">17</button>
   <button onclick="viewer.loadScene('s18')">18</button>
   <button onclick="viewer.loadScene('s19')">19</button>
-  <button onclick="viewer.loadScene('s20')">20</button>
-  <button onclick="viewer.loadScene('s21')">21</button>
 </div>
 
 <script>
@@ -131,59 +129,26 @@
             "text": "Bunga"
         },
       ] },
-      "s1":  { "title": "Spot 1",  "type": "equirectangular", "panorama": "panos/image1.jpg",  "hotSpots": [{ "pitch": 0, "yaw": 0, "type": "scene", "sceneId": "s2",  "text": "Ke Spot 2" }] },
-      "s2":  { "title": "Spot 2",  "type": "equirectangular", "panorama": "panos/image2.jpg",  "hotSpots": [{ "pitch": 0, "yaw": 0, "type": "scene", "sceneId": "s3",  "text": "Ke Spot 3" }] },
-      "s3":  { "title": "Spot 3",  "type": "equirectangular", "panorama": "panos/image3.jpg",  "hotSpots": [{ "pitch": 0, "yaw": 0, "type": "scene", "sceneId": "s4",  "text": "Ke Spot 4" }] },
-      "s4":  { "title": "Spot 4",  "type": "equirectangular", "panorama": "panos/image4.jpg",  "hotSpots": [{ "pitch": 0, "yaw": 0, "type": "scene", "sceneId": "s5",  "text": "Ke Spot 5" }] },
-      "s5":  { "title": "Spot 5",  "type": "equirectangular", "panorama": "panos/image5.jpg",  "hotSpots": [{ "pitch": 0, "yaw": 0, "type": "scene", "sceneId": "s6",  "text": "Ke Spot 6" }] },
-      "s6":  { "title": "Spot 6",  "type": "equirectangular", "panorama": "panos/image6.jpg",  "hotSpots": [{ "pitch": 0, "yaw": 0, "type": "scene", "sceneId": "s7",  "text": "Ke Spot 7" }] },
-      "s7":  { "title": "Spot 7",  "type": "equirectangular", "panorama": "panos/image7.jpg",  "hotSpots": [{ "pitch": 0, "yaw": 0, "type": "scene", "sceneId": "s8",  "text": "Ke Spot 8" }] },
-      "s8":  { "title": "Spot 8",  "type": "equirectangular", "panorama": "panos/image8.jpg",  "hotSpots": [{ "pitch": 0, "yaw": 0, "type": "scene", "sceneId": "s9",  "text": "Ke Spot 9" }] },
-      "s9":  { "title": "Spot 9",  "type": "equirectangular", "panorama": "panos/image9.jpg",  "hotSpots": [{ "pitch": 0, "yaw": 0, "type": "scene", "sceneId": "s10", "text": "Ke Spot 10" }] },
-      "s10": { "title": "Spot 10", "type": "equirectangular", "panorama": "panos/image10.jpg", "hotSpots": [{ "pitch": 0, "yaw": 0, "type": "scene", "sceneId": "s11", "text": "Ke Spot 11" }] },
-      "s11": { "title": "Spot 11", "type": "equirectangular", "panorama": "panos/image11.jpg", "hotSpots": [{ "pitch": 0, "yaw": 0, "type": "scene", "sceneId": "s12", "text": "Ke Spot 12" }] },
-      "s12": { "title": "Spot 12", "type": "equirectangular", "panorama": "panos/image12.jpg", "hotSpots": [{ "pitch": 0, "yaw": 0, "type": "scene", "sceneId": "s13", "text": "Ke Spot 13" }] },
-      "s13": { "title": "Spot 13", "type": "equirectangular", "panorama": "panos/image13.jpg", "hotSpots": [{ "pitch": 0, "yaw": 0, "type": "scene", "sceneId": "s14", "text": "Ke Spot 14" }] },
-      "s14": { "title": "Spot 14", "type": "equirectangular", "panorama": "panos/image14.jpg", "hotSpots": [{ "pitch": 0, "yaw": 0, "type": "scene", "sceneId": "s15", "text": "Ke Spot 15" }] },
-      "s15": { "title": "Spot 15", "type": "equirectangular", "panorama": "panos/image15.jpg", "hotSpots": [{ "pitch": 0, "yaw": 0, "type": "scene", "sceneId": "s16", "text": "Ke Spot 16" }] },
-      "s16": { "title": "Spot 16", "type": "equirectangular", "panorama": "panos/image16.jpg", "hotSpots": [{ "pitch": 0, "yaw": 0, "type": "scene", "sceneId": "s17", "text": "Ke Spot 17" }] },
-      "s17": { "title": "Spot 17", "type": "equirectangular", "panorama": "panos/image17.jpg", "hotSpots": [{ "pitch": 0, "yaw": 0, "type": "scene", "sceneId": "s18", "text": "Ke Spot 18" }] },
-      "s18": { "title": "Spot 18", "type": "equirectangular", "panorama": "panos/image18.jpg", "hotSpots": [{ "pitch": 0, "yaw": 0, "type": "scene", "sceneId": "s19", "text": "Ke Spot 19" }] },
-      "s19": { "title": "Spot 19", "type": "equirectangular", "panorama": "panos/image19.jpg", "hotSpots": [{ "pitch": 0, "yaw": 0, "type": "scene", "sceneId": "s20", "text": "Ke Spot 20" }] },
-      "s20": { "title": "Spot 20", "type": "equirectangular", "panorama": "panos/image20.jpg", "hotSpots": [{ "pitch": 0, "yaw": 0, "type": "scene", "sceneId": "s21", "text": "Ke Spot 21" }] },
-      "s21": { "title": "Spot 21", "type": "equirectangular", "panorama": "panos/image21.jpg", "hotSpots": [{ "pitch": 0, "yaw": 0, "type": "scene", "sceneId": "s22", "text": "Ke Spot 22" }] },
-      "s22": { "title": "Spot 22", "type": "equirectangular", "panorama": "panos/image22.jpg", "hotSpots": [{ "pitch": 0, "yaw": 0, "type": "scene", "sceneId": "s23", "text": "Ke Spot 23" }] },
-      "s23": { "title": "Spot 23", "type": "equirectangular", "panorama": "panos/image23.jpg", "hotSpots": [{ "pitch": 0, "yaw": 0, "type": "scene", "sceneId": "s24", "text": "Ke Spot 24" }] },
-      "s24": { "title": "Spot 24", "type": "equirectangular", "panorama": "panos/image24.jpg", "hotSpots": [{ "pitch": 0, "yaw": 0, "type": "scene", "sceneId": "s25", "text": "Ke Spot 25" }] },
-      "s25": { "title": "Spot 25", "type": "equirectangular", "panorama": "panos/image25.jpg", "hotSpots": [{ "pitch": 0, "yaw": 0, "type": "scene", "sceneId": "s26", "text": "Ke Spot 26" }] },
-      "s26": { "title": "Spot 26", "type": "equirectangular", "panorama": "panos/image26.jpg", "hotSpots": [{ "pitch": 0, "yaw": 0, "type": "scene", "sceneId": "s27", "text": "Ke Spot 27" }] },
-      "s27": { "title": "Spot 27", "type": "equirectangular", "panorama": "panos/image27.jpg", "hotSpots": [{ "pitch": 0, "yaw": 0, "type": "scene", "sceneId": "s28", "text": "Ke Spot 28" }] },
-      "s28": { "title": "Spot 28", "type": "equirectangular", "panorama": "panos/image28.jpg", "hotSpots": [{ "pitch": 0, "yaw": 0, "type": "scene", "sceneId": "s29", "text": "Ke Spot 29" }] },
-      "s29": { "title": "Spot 29", "type": "equirectangular", "panorama": "panos/image29.jpg", "hotSpots": [{ "pitch": 0, "yaw": 0, "type": "scene", "sceneId": "s30", "text": "Ke Spot 30" }] },
-      "s30": { "title": "Spot 30", "type": "equirectangular", "panorama": "panos/image30.jpg", "hotSpots": [{ "pitch": 0, "yaw": 0, "type": "scene", "sceneId": "s31", "text": "Ke Spot 31" }] },
-      "s31": { "title": "Spot 31", "type": "equirectangular", "panorama": "panos/image31.jpg", "hotSpots": [{ "pitch": 0, "yaw": 0, "type": "scene", "sceneId": "s32", "text": "Ke Spot 32" }] },
-      "s32": { "title": "Spot 32", "type": "equirectangular", "panorama": "panos/image32.jpg", "hotSpots": [{ "pitch": 0, "yaw": 0, "type": "scene", "sceneId": "s33", "text": "Ke Spot 33" }] },
-      "s33": { "title": "Spot 33", "type": "equirectangular", "panorama": "panos/image33.jpg", "hotSpots": [{ "pitch": 0, "yaw": 0, "type": "scene", "sceneId": "s34", "text": "Ke Spot 34" }] },
-      "s34": { "title": "Spot 34", "type": "equirectangular", "panorama": "panos/image34.jpg", "hotSpots": [{ "pitch": 0, "yaw": 0, "type": "scene", "sceneId": "s35", "text": "Ke Spot 35" }] },
-      "s35": { "title": "Spot 35", "type": "equirectangular", "panorama": "panos/image35.jpg", "hotSpots": [{ "pitch": 0, "yaw": 0, "type": "scene", "sceneId": "s36", "text": "Ke Spot 36" }] },
-      "s36": { "title": "Spot 36", "type": "equirectangular", "panorama": "panos/image36.jpg", "hotSpots": [{ "pitch": 0, "yaw": 0, "type": "scene", "sceneId": "s37", "text": "Ke Spot 37" }] },
-      "s37": { "title": "Spot 37", "type": "equirectangular", "panorama": "panos/image37.jpg", "hotSpots": [{ "pitch": 0, "yaw": 0, "type": "scene", "sceneId": "s38", "text": "Ke Spot 38" }] },
-      "s38": { "title": "Spot 38", "type": "equirectangular", "panorama": "panos/image38.jpg", "hotSpots": [{ "pitch": 0, "yaw": 0, "type": "scene", "sceneId": "s39", "text": "Ke Spot 39" }] },
-      "s39": { "title": "Spot 39", "type": "equirectangular", "panorama": "panos/image39.jpg", "hotSpots": [{ "pitch": 0, "yaw": 0, "type": "scene", "sceneId": "s40", "text": "Ke Spot 40" }] },
-      "s40": { "title": "Spot 40", "type": "equirectangular", "panorama": "panos/image40.jpg", "hotSpots": [{ "pitch": 0, "yaw": 0, "type": "scene", "sceneId": "s41", "text": "Ke Spot 41" }] },
-      "s41": { "title": "Spot 41", "type": "equirectangular", "panorama": "panos/image41.jpg", "hotSpots": [{ "pitch": 0, "yaw": 0, "type": "scene", "sceneId": "s42", "text": "Ke Spot 42" }] },
-      "s42": { "title": "Spot 42", "type": "equirectangular", "panorama": "panos/image42.jpg", "hotSpots": [{ "pitch": 0, "yaw": 0, "type": "scene", "sceneId": "s43", "text": "Ke Spot 43" }] },
-      "s43": { "title": "Spot 43", "type": "equirectangular", "panorama": "panos/image43.jpg", "hotSpots": [{ "pitch": 0, "yaw": 0, "type": "scene", "sceneId": "s44", "text": "Ke Spot 44" }] },
-      "s44": { "title": "Spot 44", "type": "equirectangular", "panorama": "panos/image44.jpg", "hotSpots": [{ "pitch": 0, "yaw": 0, "type": "scene", "sceneId": "s45", "text": "Ke Spot 45" }] },
-      "s45": { "title": "Spot 45", "type": "equirectangular", "panorama": "panos/image45.jpg", "hotSpots": [{ "pitch": 0, "yaw": 0, "type": "scene", "sceneId": "s46", "text": "Ke Spot 46" }] },
-      "s46": { "title": "Spot 46", "type": "equirectangular", "panorama": "panos/image46.jpg", "hotSpots": [{ "pitch": 0, "yaw": 0, "type": "scene", "sceneId": "s47", "text": "Ke Spot 47" }] },
-      "s47": { "title": "Spot 47", "type": "equirectangular", "panorama": "panos/image47.jpg", "hotSpots": [{ "pitch": 0, "yaw": 0, "type": "scene", "sceneId": "s48", "text": "Ke Spot 48" }] },
-      "s48": { "title": "Spot 48", "type": "equirectangular", "panorama": "panos/image48.jpg", "hotSpots": [{ "pitch": 0, "yaw": 0, "type": "scene", "sceneId": "s49", "text": "Ke Spot 49" }] },
-      "s49": { "title": "Spot 49", "type": "equirectangular", "panorama": "panos/image49.jpg", "hotSpots": [{ "pitch": 0, "yaw": 0, "type": "scene", "sceneId": "s50", "text": "Ke Spot 50" }] },
-      "s50": { "title": "Spot 50", "type": "equirectangular", "panorama": "panos/image50.jpg", "hotSpots": [{ "pitch": 0, "yaw": 0, "type": "scene", "sceneId": "s51", "text": "Ke Spot 51" }] },
-      "s51": { "title": "Spot 51", "type": "equirectangular", "panorama": "panos/image51.jpg", "hotSpots": [{ "pitch": -6, "yaw": -40, "type": "scene", "sceneId": "s52", "text": "Ke Spot 52" }] },
-      "s52": { "title": "Spot 52", "type": "equirectangular", "panorama": "panos/image52.jpg", "hotSpots": [{ "pitch": 0, "yaw": 0, "type": "scene", "sceneId": "s53", "text": "Ke Spot 53" }] },
-      "s53": { "title": "Spot 53", "type": "equirectangular", "panorama": "panos/image53.jpg" }
+      "s1":  { "title": "Spot 1",  "type": "equirectangular", "panorama": "assets/360_images/image1.jpg",  "hotSpots": [{ "pitch": 0, "yaw": 0, "type": "scene", "sceneId": "s2",  "text": "Ke Spot 2" }] },
+      "s2":  { "title": "Spot 2",  "type": "equirectangular", "panorama": "assets/360_images/image2.jpg",  "hotSpots": [{ "pitch": -3.28, "yaw": -84.63, "type": "scene", "sceneId": "s3",  "text": "Ke Spot 3" }] },
+      "s3":  { "title": "Spot 3",  "type": "equirectangular", "panorama": "assets/360_images/image3.jpg",  "hotSpots": [{ "pitch": -3.28, "yaw": -84.63, "type": "scene", "sceneId": "s4",  "text": "Ke Spot 4" }] },
+      "s4":  { "title": "Spot 4",  "type": "equirectangular", "panorama": "assets/360_images/image4.jpg",  "hotSpots": [{ "pitch": 0, "yaw": 0, "type": "scene", "sceneId": "s5",  "text": "Ke Spot 5" }] },
+      "s5":  { "title": "Spot 5",  "type": "equirectangular", "panorama": "assets/360_images/image5.jpg",  "hotSpots": [{ "pitch": -4.61, "yaw": 90.70, "type": "scene", "sceneId": "s6",  "text": "Ke Spot 6" }] },
+      "s6":  { "title": "Spot 6",  "type": "equirectangular", "panorama": "assets/360_images/image6.jpg",  "hotSpots": [{ "pitch": -5.82, "yaw": -87.06, "type": "scene", "sceneId": "s7",  "text": "Ke Spot 7" }] },
+      "s7":  { "title": "Spot 7",  "type": "equirectangular", "panorama": "assets/360_images/image7.jpg",  "hotSpots": [{ "pitch": 0.00, "yaw": 0.00, "type": "scene", "sceneId": "s8",  "text": "Ke Spot 8" }] },
+      "s8":  { "title": "Spot 8",  "type": "equirectangular", "panorama": "assets/360_images/image8.jpg",  "hotSpots": [{ "pitch": -0.94, "yaw": -88.34, "type": "scene", "sceneId": "s9",  "text": "Ke Spot 9" }] },
+      "s9":  { "title": "Spot 9",  "type": "equirectangular", "panorama": "assets/360_images/image9.jpg",  "hotSpots": [{ "pitch": 0.00, "yaw": 0.00, "type": "scene", "sceneId": "s10", "text": "Ke Spot 10" }] },
+      "s10": { "title": "Spot 10", "type": "equirectangular", "panorama": "assets/360_images/image10.jpg", "hotSpots": [{ "pitch": 2.03, "yaw": -101.04, "type": "scene", "sceneId": "s11", "text": "Ke Spot 11" }] },
+      "s11": { "title": "Spot 11", "type": "equirectangular", "panorama": "assets/360_images/image11.jpg", "hotSpots": [{ "pitch": 0.15, "yaw": 178.21, "type": "scene", "sceneId": "s12", "text": "Ke Spot 12" }] },
+      "s12": { "title": "Spot 12", "type": "equirectangular", "panorama": "assets/360_images/image12.jpg", "hotSpots": [{ "pitch": -0.96, "yaw": -176.60, "type": "scene", "sceneId": "s13", "text": "Ke Spot 13" }] },
+      "s13": { "title": "Spot 13", "type": "equirectangular", "panorama": "assets/360_images/image13.jpg", "hotSpots": [{ "pitch": -6.58, "yaw": -1.28, "type": "scene", "sceneId": "s14", "text": "Ke Spot 14" }] },
+      "s14": { "title": "Spot 14", "type": "equirectangular", "panorama": "assets/360_images/image14.jpg", "hotSpots": [{ "pitch": -2.67, "yaw": 76.58, "type": "scene", "sceneId": "s15", "text": "Ke Spot 15" }] },
+      "s15": { "title": "Spot 15", "type": "equirectangular", "panorama": "assets/360_images/image15.jpg", "hotSpots": [{ "pitch": 0, "yaw": 0, "type": "scene", "sceneId": "s16", "text": "Ke Spot 16" }] },
+      "s16": { "title": "Spot 16", "type": "equirectangular", "panorama": "assets/360_images/image16.jpg", "hotSpots": [{ "pitch": -1.19, "yaw": 42.56, "type": "scene", "sceneId": "s17", "text": "Ke Spot 17" }] },
+      "s17": { "title": "Spot 17", "type": "equirectangular", "panorama": "assets/360_images/image17.jpg", "hotSpots": [{ "pitch": -3.57, "yaw": -32.14, "type": "scene", "sceneId": "s18", "text": "Ke Spot 18" }] },
+      "s18": { "title": "Spot 18", "type": "equirectangular", "panorama": "assets/360_images/image18.jpg", "hotSpots": [{ "pitch":-39.90, "yaw": 0.08, "type": "scene", "sceneId": "s19", "text": "Ke Spot 19" }] },
+      "s19": { "title": "Spot 19", "type": "equirectangular", "panorama": "assets/360_images/image19.jpg", }
+
     }
   });
 
