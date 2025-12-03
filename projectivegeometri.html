@@ -3,11 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>3D Model Rumah Adat Mandar</title>
-
-  <!-- Import Model Viewer -->
-  <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
-
+  <title>Projective Geometry Boyang Mandar</title>
   <style>
     body {
       background-color: #0d1117;
@@ -55,7 +51,7 @@
       text-align: center;
     }
 
-    .model-container {
+    .image-container {
       display: flex;
       justify-content: center;
       align-items: center;
@@ -64,16 +60,14 @@
       box-shadow: 0 6px 25px rgba(0, 0, 0, 0.5);
       padding: 10px;
       margin-bottom: 25px;
-      width: 90%;
-      max-width: 700px;
-      height: 400px;
     }
 
-    model-viewer {
-      width: 100%;
-      height: 100%;
+    .image-container img {
+      width: 90%;
+      max-width: 700px;
+      height: auto;
       border-radius: 10px;
-      background-color: #111827;
+      display: block;
     }
 
     footer {
@@ -90,28 +84,11 @@
   <!-- Tombol kiri atas -->
   <button class="back-button" onclick="window.location.href='index.html'">← Kembali</button>
 
-  <h1>3D Model Rumah Adat Mandar</h1>
+  <h1>Projective Geometry  Boyang Mandar</h1>
 
-  <div class="model-container">
-    <!-- Ganti src dengan path model GLB kamu -->
-    <model-viewer 
-      src="./assets/3d_model/blend_rumah_adat_mandar.glb" 
-      alt="Model 3D Boyang Mandar"
-      camera-controls 
-      auto-rotate 
-      shadow-intensity="1"
-      exposure="1.2"
-      ar>
-    </model-viewer>
+  <div class="image-container">
+    <img src="assets/images/projective_geometry_boyang_mandar.jpeg" alt="Projective Geometry Boyang Mandar">
   </div>
-
-
-<p style="width: 90%; max-width: 700px; text-align: justify; line-height: 1.7; color: #cfcfcf; margin-top: 10px;">
-  Model 3D Rumah Adat Mandar ini memungkinkan kamu untuk mengamati struktur bangunannya secara detail.
-  Setiap sudut dan bentuk arsitekturnya mencerminkan nilai historis dan budaya masyarakat Mandar. 
-  Dengan fitur rotasi dan zoom, kamu dapat menelusuri konstruksi atap, tiang penyangga, hingga tata ruang 
-  yang menjadi ciri khas rumah adat ini.
-</p>
 
   <footer>© 2025 Etnomatematika Rumah Adat Mandar</footer>
 
