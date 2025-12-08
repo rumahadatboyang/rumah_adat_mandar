@@ -1,1 +1,0 @@
-# rumah_adat_mandar
